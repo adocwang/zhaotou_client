@@ -1,0 +1,227 @@
+/*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+body{
+    color:#666;
+}
+ .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.navbar-brand{
+    padding: 0.5em 0.5em;
+    font-size: 18px;
+    line-height: 20px;
+    height: 3.5em;
+}
+.navbar-brand img{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    height: 2.5em;
+}
+.navbar-brand,
+.navbar-nav > li > a {
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 4.5em;
+    text-shadow: none;
+    color: #ffffff;
+}
+.navbar-inverse .navbar-nav>li>a:focus,.navbar-inverse .navbar-nav>li>a:hover {
+    background-color: #ffffff;
+    color: #00c0ef !important;
+}
+.title-active{
+    background-color: #ffffff;
+    color: #00c0ef !important;
+}
+.navbar-inverse {
+  background:#00c0ef;
+  border-radius: 0px;
+  border-color: #00c0ef;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #ffffff;
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: #ffffff;
+}
+.navbar-inverse .navbar-toggle:hover span, .navbar-inverse .navbar-toggle:focus span{
+    background-color: #00c0ef;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #ffffff;
+}
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav > li > a {
+  text-shadow: none;
+  color: #ffffff;
+}
+
+.search-form{
+    border: #c1efff solid 1px;
+    background-color: #f0fbff;
+    padding: 2em;
+}
+
+.performance-condition-block{
+    padding-top: 0.5em;
+}
+
+.form-control{
+    margin-bottom: 0.5em;
+}
+
+.btn-primary, .btn-primary:focus {
+    border-color: #00c0ef;
+    background-color: #00c0ef;
+}
+
+.btn-primary:hover {
+    background-color: #30b1ef;
+    border-color: #00c0ef;
+}
+
+.condition-block{
+    font-weight: normal;
+    margin: 0.2em;
+    border-color: #00c0ef;
+    border-width: 1px;
+    border-radius: 3px;
+    border-style: dotted;
+    display: inline-block;
+    padding: 2px 5px;
+    color: #00c0ef;
+}
+
+.condition-block span{
+    font-size: 12px;
+}
+
+.condition-add-btn,.condition-add-btn:focus{
+    font-weight: normal;
+    margin: 0.5em;
+    background-color: #ffffff;
+    color: #00c0ef;
+}
+
+.condition-alert{
+    padding: 5px 15px;
+    width: 12em;
+    text-align: center;
+}
+
+.condition-field-name{
+    line-height: 22px;
+}
+
+.hr {
+    width: 100%;
+    float: left;
+    border: none;
+    height: 0px;
+    border-top: 1px dashed #ccc;
+    margin:5px 0px;
+}
+
+.glyphicon-danger{
+    color:#a94442;
+}
+
+.remove-btn{
+    color: #e48a99;
+    cursor: pointer;
+}
+
+.remove-btn:hover{
+    color: #a94442;
+}
+
+.model-row{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.alert{
+    margin-bottom: 0px;
+}
+
+.input-group{
+    margin-bottom: 0.5em;
+}
+
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
+    background-color: #00c0ef;
+    border-color: #00c0ef;
+}
+
+.company-card{
+    background-color: #c5e8f7;
+    color: #2c7ea1;
+    border-color: #a6e8f3;
+    margin:1em 2em;
+    padding:1em 2em;
+}
+
+.company-detail{
+    margin: 0 0 1em 0;
+}
+
+.company-detail-row,.search-result-row{
+    line-height: 3em;
+    border-bottom-color: #eeeeee;
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+    background-color: #ffffff;
+}
+.company-detail-row:nth-of-type(odd),.search-result-row:nth-of-type(odd){
+    background-color: #f0fbff;
+}
+
+.company-detail-tr-bg0{
+    background-color: #f0fbff;
+}
+
+.company-detail-header,.search-result-header{
+    height: 3em;
+    line-height: 3em;
+    border-bottom-color: #eeeeee;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}
+
+.company-detail-tr{
+    border-bottom:1px solid #ddd;
+}
+
+.company-detail-td-cross{
+    vertical-align: middle !important;
+    border-right:1px solid #ddd;
+}
+
+.pager-comment{
+    display: inline-block;
+    float: right;
+    margin: 26px 10px;
+}
+
+.nav-tabs.nav-justified>li.active>a {
+    color: #fff;
+    background-color: #00c0ef;
+}
+.nav-tabs.nav-justified>li.active>a>.badge {
+    color: #00c0ef;
+    background-color: #fff;
+}
+
+.company-detail-filter{
+    padding: 0.2em 0;
+    background-color: #f6f6f7;
+}
+
+.company-detail-filter .form-control{
+    margin: 0.5em;
+}
